@@ -42,6 +42,7 @@ main{
 .formulario input,textarea{
   margin: 14px;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .formulario label{
@@ -62,6 +63,8 @@ main{
   color: #ffff;
   cursor: pointer;
   font-weight: 700;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .input-vazio{
