@@ -1,0 +1,75 @@
+body{
+  background-image: url('../images/bg-repeat.jpg') ;
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat-x ;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.form-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  width: 90%;
+  height: 111px;
+  padding-left: 50px;
+  color: #ffff;
+}
+
+.text .litle-text{
+  margin-top: 14px;
+}
+
+.formulario{
+  width: 400px;
+  height: 500px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario input,textarea{
+  margin: 14px;
+  padding: 10px;
+}
+
+.formulario label{
+  font-size: 15px;
+  padding-left: 14px;
+  margin-top: 20px;
+}
+.error-message{
+  color: red;
+  font-size: 12px;
+  margin-left: 14px;
+  display: none;
+}
+
+.formulario input:last-child{
+  background-color: #3CCC87;
+  border-color: #3CCC87;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.input-vazio{
+  border-color: red;
+}
+
+.input-preenchido{
+  border-color: #00C22B;
+}
+  
+
